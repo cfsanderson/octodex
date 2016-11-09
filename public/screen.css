@@ -4,5 +4,70 @@ html {
 
 body {
   margin: 0;
-  font: 16px / 1 sans-serif;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Helvetica;
+  font-weight: bold;
+  padding: 0 0.5em;
+  background-color: #f3f3f3;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 13px;
+}
+
+nav ul li a {
+  padding: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+main ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+}
+
+main ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+.pics {
+  border-radius: .5em;
+  border-width: 10em;
+  border: solid;
+  border-color: #cacaca;
+}
+
+nav ul li a:link {
+
+}
+
+main p {
+  margin: 10px;
+  font-size: 16px;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+main h1 {
+  margin: 10px;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+/*Gavin dropped this in yesterday and I don't understand it yet.
+
+@media (min-width: 768px) {
+  nav ul {
+    display: flex;
+  }
+}*/
