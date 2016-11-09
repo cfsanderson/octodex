@@ -4,6 +4,7 @@ html {
 
 body {
   margin: 0;
+  font-family: Helvetica, sans-serif;
 }
 
 nav {
@@ -15,6 +16,7 @@ nav {
   padding: 0 0.5em;
   background-color: #f3f3f3;
 }
+
 
 nav ul {
   display: flex;
@@ -47,6 +49,7 @@ main ul li {
   border-color: #cacaca;
 }
 
+
 nav ul li a:link {
 
 }
@@ -64,6 +67,15 @@ main h1 {
   text-align: center;
 }
 
+figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+figcaption p.faded {
+  font-family: Helvetica;
+  opacity: .5;
+}
 /*Gavin dropped this in yesterday and I don't understand it yet.
 
 @media (min-width: 768px) {
