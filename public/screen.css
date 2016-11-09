@@ -17,7 +17,6 @@ nav {
   background-color: #f3f3f3;
 }
 
-
 nav ul {
   display: flex;
   list-style-type: none;
@@ -43,15 +42,13 @@ main ul li {
 }
 
 .pics {
-  border-radius: .5em;
+  border-radius: 0.5em;
   border-width: 10em;
   border: solid;
   border-color: #cacaca;
 }
 
-
 nav ul li a:link {
-
 }
 
 main p {
@@ -72,14 +69,17 @@ figcaption {
   justify-content: space-between;
   align-items: center;
 }
+
 figcaption p.faded {
   font-family: Helvetica;
-  opacity: .5;
+  opacity: 0.5;
 }
-/*Gavin dropped this in yesterday and I don't understand it yet.
+
+/*Gavin dropped this in yesterday and I don't understand it yet.*/
 
 @media (min-width: 768px) {
   nav ul {
     display: flex;
+    flex-shrink: 0;
   }
-}*/
+}
