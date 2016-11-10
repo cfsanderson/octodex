@@ -71,3 +71,7 @@ figcaption p.faded {
   font-family: Helvetica;
   opacity: 0.5;
 }
+
+.footer-li {
+  text-decoration: none;
+}
